@@ -5,4 +5,8 @@ class App < Sinatra::Base
   get '/reversename/:name' do 
     name = params[:name].reverse
   end 
+  
+  get '/suare/:number' do 
+    
+  end 
 end
