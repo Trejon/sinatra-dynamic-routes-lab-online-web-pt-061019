@@ -7,6 +7,7 @@ class App < Sinatra::Base
   end 
   
   get '/suare/:number' do 
-    
+    number = params[:number]
+      (number.to_i**2).to_s
   end 
 end
